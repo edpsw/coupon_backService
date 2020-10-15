@@ -1,0 +1,95 @@
+2021-08-21 19:46:23.828  INFO 17352 --- [main] c.i.passbook.service.MerchantsServTest   : Starting MerchantsServTest on Edpsw with PID 17352 (started by 15891 in D:\mycode\java\coupon_backService\merchants)
+2021-08-21 19:46:23.829  INFO 17352 --- [main] c.i.passbook.service.MerchantsServTest   : No active profile set, falling back to default profiles: default
+2021-08-21 19:46:23.867  INFO 17352 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@54e1c68b: startup date [Sat Aug 21 19:46:23 CST 2021]; root of context hierarchy
+2021-08-21 19:46:25.058  INFO 17352 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$4eadd85b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 19:46:25.789  INFO 17352 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-08-21 19:46:25.805  INFO 17352 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-21 19:46:25.878  INFO 17352 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2021-08-21 19:46:25.880  INFO 17352 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-21 19:46:25.882  INFO 17352 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2021-08-21 19:46:25.927  INFO 17352 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-08-21 19:46:26.049  INFO 17352 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-21 19:46:27.302  INFO 17352 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-21 19:46:28.205  INFO 17352 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2021-08-21 19:46:28.219  INFO 17352 --- [main] c.i.passbook.service.MerchantsServTest   : Started MerchantsServTest in 5.311 seconds (JVM running for 6.433)
+2021-08-21 19:46:28.315  INFO 17352 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-08-21 19:46:28.717  INFO 17352 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@54e1c68b: startup date [Sat Aug 21 19:46:23 CST 2021]; root of context hierarchy
+2021-08-21 19:46:28.720  INFO 17352 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2021-08-21 19:46:28.720  INFO 17352 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2021-08-21 19:46:28.722  INFO 17352 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-21 19:46:46.929  INFO 9752 --- [main] com.imooc.passbook.MerchantsApplication  : Starting MerchantsApplication on Edpsw with PID 9752 (D:\mycode\java\coupon_backService\merchants\target\classes started by 15891 in D:\mycode\java\coupon_backService\merchants)
+2021-08-21 19:46:46.932  INFO 9752 --- [main] com.imooc.passbook.MerchantsApplication  : No active profile set, falling back to default profiles: default
+2021-08-21 19:46:46.977  INFO 9752 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31c88ec8: startup date [Sat Aug 21 19:46:46 CST 2021]; root of context hierarchy
+2021-08-21 19:46:47.977  INFO 9752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$e9bbe5cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 19:46:48.229  INFO 9752 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9527 (http)
+2021-08-21 19:46:48.238  INFO 9752 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2021-08-21 19:46:48.239  INFO 9752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2021-08-21 19:46:48.330  INFO 9752 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-21 19:46:48.330  INFO 9752 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1354 ms
+2021-08-21 19:46:48.458  INFO 9752 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2021-08-21 19:46:48.461  INFO 9752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-08-21 19:46:48.462  INFO 9752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-08-21 19:46:48.462  INFO 9752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-08-21 19:46:48.462  INFO 9752 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-08-21 19:46:48.885  INFO 9752 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-08-21 19:46:48.895  INFO 9752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-21 19:46:48.943  INFO 9752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2021-08-21 19:46:48.945  INFO 9752 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-21 19:46:48.946  INFO 9752 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2021-08-21 19:46:48.977  INFO 9752 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-08-21 19:46:49.068  INFO 9752 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-21 19:46:49.480  INFO 9752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-21 19:46:49.919  INFO 9752 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31c88ec8: startup date [Sat Aug 21 19:46:46 CST 2021]; root of context hierarchy
+2021-08-21 19:46:49.973  INFO 9752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/merchants/create],methods=[POST]}" onto public com.imooc.passbook.vo.Response com.imooc.passbook.controller.MerchantsCtl.createMerchants(com.imooc.passbook.vo.CreateMerchantsRequest)
+2021-08-21 19:46:49.974  INFO 9752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/merchants/drop],methods=[POST]}" onto public com.imooc.passbook.vo.Response com.imooc.passbook.controller.MerchantsCtl.dropPassTemplate(com.imooc.passbook.vo.PassTemplate)
+2021-08-21 19:46:49.974  INFO 9752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/merchants/{id}],methods=[GET]}" onto public com.imooc.passbook.vo.Response com.imooc.passbook.controller.MerchantsCtl.buildMerchantsInfo(java.lang.Integer)
+2021-08-21 19:46:49.975  INFO 9752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-08-21 19:46:49.976  INFO 9752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-08-21 19:46:50.003  INFO 9752 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 19:46:50.004  INFO 9752 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 19:46:50.035  INFO 9752 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 19:46:50.269  INFO 9752 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-08-21 19:46:50.276  INFO 9752 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2021-08-21 19:46:50.319  INFO 9752 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9527 (http)
+2021-08-21 19:46:50.323  INFO 9752 --- [main] com.imooc.passbook.MerchantsApplication  : Started MerchantsApplication in 3.741 seconds (JVM running for 5.064)
+2021-08-21 21:22:07.735  INFO 13524 --- [main] com.imooc.passbook.MerchantsApplication  : Starting MerchantsApplication on Edpsw with PID 13524 (D:\mycode\java\coupon_backService\merchants\target\test-classes started by 15891 in D:\mycode\java\coupon_backService\merchants)
+2021-08-21 21:22:07.738  INFO 13524 --- [main] com.imooc.passbook.MerchantsApplication  : No active profile set, falling back to default profiles: default
+2021-08-21 21:22:07.778  INFO 13524 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fa98a66: startup date [Sat Aug 21 21:22:07 CST 2021]; root of context hierarchy
+2021-08-21 21:22:08.903  INFO 13524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$67a22864] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-21 21:22:09.181  INFO 13524 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9527 (http)
+2021-08-21 21:22:09.191  INFO 13524 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2021-08-21 21:22:09.192  INFO 13524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2021-08-21 21:22:09.282  INFO 13524 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-21 21:22:09.283  INFO 13524 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1505 ms
+2021-08-21 21:22:09.414  INFO 13524 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2021-08-21 21:22:09.418  INFO 13524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-08-21 21:22:09.419  INFO 13524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-08-21 21:22:09.419  INFO 13524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-08-21 21:22:09.419  INFO 13524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-08-21 21:22:09.845  INFO 13524 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-08-21 21:22:09.856  INFO 13524 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-08-21 21:22:09.924  INFO 13524 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2021-08-21 21:22:09.926  INFO 13524 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-08-21 21:22:09.927  INFO 13524 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2021-08-21 21:22:09.963  INFO 13524 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2021-08-21 21:22:10.044  INFO 13524 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-08-21 21:22:10.456  INFO 13524 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-21 21:22:10.950  INFO 13524 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fa98a66: startup date [Sat Aug 21 21:22:07 CST 2021]; root of context hierarchy
+2021-08-21 21:22:11.006  INFO 13524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/merchants/drop],methods=[POST]}" onto public com.imooc.passbook.vo.Response com.imooc.passbook.controller.MerchantsCtl.dropPassTemplate(com.imooc.passbook.vo.PassTemplate)
+2021-08-21 21:22:11.007  INFO 13524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/merchants/create],methods=[POST]}" onto public com.imooc.passbook.vo.Response com.imooc.passbook.controller.MerchantsCtl.createMerchants(com.imooc.passbook.vo.CreateMerchantsRequest)
+2021-08-21 21:22:11.007  INFO 13524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/merchants/{id}],methods=[GET]}" onto public com.imooc.passbook.vo.Response com.imooc.passbook.controller.MerchantsCtl.buildMerchantsInfo(java.lang.Integer)
+2021-08-21 21:22:11.009  INFO 13524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-08-21 21:22:11.009  INFO 13524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-08-21 21:22:11.038  INFO 13524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 21:22:11.038  INFO 13524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 21:22:11.072  INFO 13524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-08-21 21:22:11.335  INFO 13524 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-08-21 21:22:11.342  INFO 13524 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2021-08-21 21:22:11.388  INFO 13524 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9527 (http)
+2021-08-21 21:22:11.392  INFO 13524 --- [main] com.imooc.passbook.MerchantsApplication  : Started MerchantsApplication in 4.025 seconds (JVM running for 5.272)
